@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Features
 
 - DuckDB geometry columns now show as text, like `POINT (-117.93367 34.34613)`, instead of as raw bytes, in the Results Viewer and everywhere else; the spatial extension's types also get a `geo` label in the Data Catalog ([#302](https://github.com/tconbeer/harlequin/issues/302)).
+- Press `F7` (bindable as `toggle_keys_panel`) to show or hide the Keys panel, which is restyled to match Harlequin's other panels and can now be focused and scrolled ([#753](https://github.com/tconbeer/harlequin/issues/753)).
 
 ### Refactoring
 
